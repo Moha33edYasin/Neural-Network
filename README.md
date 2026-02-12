@@ -15,13 +15,15 @@ Extending the system toward an intelligent agent capable of interpreting human v
 ## 🔵 Usage
 
 Import the module.  
+
 ```python
 from deep_learning.models import *
 from deep_learning.activitions import *
 ```
 
 To use NN model, call `NeuralNetwork()` and configure your structure.  
-*Example:*  
+
+👉 *Example:*  
 
 ```python
 nn = NeuralNetwork(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
@@ -35,7 +37,8 @@ nn = NeuralNetwork(['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
 ```
 
 To train the model, prepare an input-field set of data and its output field, and call `learn()`, which return the the **loss** and **accuracy** across all **epochs** of the training process.  
-*Example:*   
+
+👉 *Example:*   
 
 ```python
 # Note: in this case `xtrain` and `ytrain` are the input and expected output fields
@@ -43,7 +46,8 @@ loss1, acc1 = nn.learn(xtrain, ytrain, ttrain, lr=0.01, epochs=epochs, batch_siz
 ```
 
 To test the model, prepare an input-field set of data and its output field other than those used in training, and call `test()`, which return the the **loss** and **accuracy** across all **batches** of the testing dataset.  
-*Example:*  
+
+👉 *Example:*  
 
 ```python
 # Note: in this case `xtest` and `ytest` are the input and expected output fields
