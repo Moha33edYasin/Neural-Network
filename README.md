@@ -1,18 +1,18 @@
-# What is it?
+# 🏳️ What is it?
 A *neural network framework* implemented entirely from scratch, featuring both a *Multi-Layer Perceptron (MLP)* and a *Convolutional Neural Network (CNN)*.  
 
 The project reconstructs fundamental deep learning components, including convolution kernels, pooling operations, dense-to-flatten transitions, channel handling, optimizers, activation functions, and parameter initialization strategies. The framework is designed with an emphasis on modularity, transparency, and full user control, enabling direct interaction with the underlying learning mechanics.  
 
-# Why? 
+# ⭐ Why? 
 To develop a first-principles understanding of neural network mechanics rather than relying on high-level libraries.  
 Re-implementing core mechanisms provided deeper insight into how learning dynamics, gradient flow, and architectural design choices interact.  
 
-# Next step:  
+# 🪜 Next steps:  
 Extending the system toward an intelligent agent capable of interpreting human voice commands to mapping them into actions within a 2D environment.
-> [!Declaration]  
+> [!Important]  
 > Contribution will be appreciated.  
 
-## Usage
+## 🔵 Usage
 
 Import the module.  
 ```python
