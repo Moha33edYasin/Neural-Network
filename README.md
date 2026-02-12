@@ -1,5 +1,5 @@
 # What is it?
-A neural network framework implemented entirely from scratch, including a multi-layer perceptron (MLP) and convolutional neural network (CNN). The project recreates core deep learning components such as kernels, pooling layers, dense/flatten transitions, channel handling, optimizers, activation functions, and parameter initialization strategies. The framework emphasizes modularity, transparency, and user control.  
+A *neural network framework* implemented entirely from scratch, including a *multi-layer perceptron (MLP)* and *convolutional neural network (CNN)*. The project recreates core deep learning components such as kernels, pooling layers, dense/flatten transitions, channel handling, optimizers, activation functions, and parameter initialization strategies. The framework emphasizes modularity, transparency, and user control.  
 
 # Why? 
 To develop a first-principles understanding of neural network mechanics rather than relying on high-level libraries.  
